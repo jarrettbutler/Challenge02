@@ -7,11 +7,12 @@
 body {
     width: 100%;
     background-color: black;
-    margin: 0;
 }
 
 .header {
     display: flex;
+    flex-wrap: wrap;
+    position: relative;
     font-family: 'Courier New', Courier, monospace;
     background-color: #ff69b4;
 }
@@ -31,9 +32,11 @@ body {
 .header ul {
     padding-top: 15px;
     padding-right: 20px;
-    float: right;
     font-size: 20px;
     font-weight: bolder;
+    display: inline;
+    position: absolute;
+    right: 0%;
 }
 
 .header ul li {
@@ -45,46 +48,43 @@ body {
     color: black;
 }
 
-.About-me {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.About-me h2 {
-    color: white;
-    text-decoration: underline;
-    display: inline-block;
-}
-
-#verticle-lineam {
-    border-left: 6px solid #ff69b4;
-    height: 1278px;
-    position: absolute;
-    left: 180px;
-}
-
 main {
     background-color: black;
 }
 
+.About-me {
+    font-family: monospace;
+}
+
+#verticle-lineam {
+    border-left: 6px solid #ff69b4;
+    position: absolute;
+    left: 180px;
+}
+
 .About-me p{
     margin-left: 200px;
-    color: white;
+    color: #ff69b4;
     font-weight: bolder;
     display: inline-block;
+    font-size: 18px;
 }
 
 .About-me a {
-    color: white;
+    color: #ff69b4;
     text-decoration: underline;
 }
 
 .My-work {
+    margin-left: 191px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.My-work h2 {
-    color: white;
+h2 {
+    color: #ff69b4;
     text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
 }
 
 .My-work img {
@@ -92,6 +92,7 @@ main {
     background-color: #ff69b4;
     width: 300px;
     height: 400px;
+    border-radius: 25px;
 }
 
 .My-work a {
@@ -99,32 +100,22 @@ main {
     width: 300px;
     height: 400px;
     text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: #ff69b4;
+    border-radius: 25px;
+    font-weight: bolder;
 }
-
-.products {
-    flex: 4;
-    background-color: #fff;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 
 .Contact-me {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.Contact-me h2 {
-    color: white;
-    text-decoration: underline;
-}
-
 .Contact-me a {
-    align-items: center;
     position: relative;
     left: 170px;
     padding-left: 30px;
-    color: white;
+    color: #ff69b4;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
 }
@@ -133,16 +124,10 @@ main {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.Resume h2 {
-    color: white;
-    text-decoration: underline;
-    display: block;
-}
-
 .Resume a {
     margin-left: 180px;
     padding-left: 20px;
-    color: white;
+    color: #ff69b4;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
 }
