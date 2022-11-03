@@ -12,7 +12,7 @@ https://jarrettbutler.github.io/Challenge02/
 
 https://github.com/jarrettbutler/Challenge02
 
-<img scr="./Assets/Images/websitescreenshot.jpg" alt="Webpage screenshot">
+<img src="./Assets/Images/websitescreenshot.jpg" alt="Webpage screenshot">
 
 ## Usage
 
