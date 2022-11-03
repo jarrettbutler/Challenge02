@@ -12,6 +12,8 @@ https://jarrettbutler.github.io/Challenge02/
 
 https://github.com/jarrettbutler/Challenge02
 
+<img scr=./Assets/Images/websitescreenshot.jpg alt="Webpage screenshot">
+
 ## Usage
 
 This is just a simple webpage that allows me to show off my skills. There isn't anything too fancy but if you click on one of the options in the top right corner it will take you down to that section. As well if you click on any of the links/images they will direct you to that project.
