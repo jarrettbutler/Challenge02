@@ -50,26 +50,26 @@ main {
     background-color: black;
 }
 
-.About-me {
+.about-me {
     margin-left: 160px;
     padding-left: 34px;
     border-left: 6px solid #ff69b4;
     font-family: monospace;
 }
 
-.About-me p{
+.about-me p{
     color: #ff69b4;
     font-weight: bolder;
     display: inline-block;
     font-size: 18px;
 }
 
-.About-me a {
+.about-me a {
     color: #ff69b4;
     text-decoration: underline;
 }
 
-.My-work {
+.my-work {
     margin-left: 160px;
     border-left: 6px solid #ff69b4;
     padding-left: 25px;
@@ -83,7 +83,7 @@ h2 {
     font-size: 24px;
 }
 
-.My-work img {
+.my-work img {
     padding: 9px;
     background-color: #ff69b4;
     width: 200px;
@@ -101,7 +101,7 @@ h2 {
     height: 400px;
 }
 
-.My-work a {
+.my-work a {
     padding: 9px;
     width: 200px;
     height: 300px;
@@ -113,28 +113,28 @@ h2 {
     font-weight: bolder;
 }
 
-.Contact-me {
+.contact-me {
     margin-left: 160px;
     border-left: 6px solid #ff69b4;
     padding-left: 4px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.Contact-me a {
+.contact-me a {
     padding-left: 30px;
     color: #ff69b4;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
 }
 
-.Resume {
+.resume {
     margin-left: 160px;
     border-left: 6px solid #ff69b4;
     padding-left: 34px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.Resume a {
+.resume a {
     color: #ff69b4;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
